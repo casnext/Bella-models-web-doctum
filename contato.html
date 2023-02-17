@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ana Bella Model | Contato</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="principal">
+		<img src="imagens/capa.png">
+	
+	<nav>
+		<a href="index.html">Home</a> |
+		<a href="biografia.html">Biografia</a> |
+		<a href="campanha.html">Campanhas Publicitárias</a> |
+		<a href="contato.html">Contato</a>
+	</nav>
+	<div class="conteudo">
+
+		<main class="container">
+			<section class="content">
+				<h1 class="title">Contato</h1>
+				<form action="" method="post">
+					<div class="form-group">
+						<label for="nome">Nome</label>
+						<input type="text"
+							   name="nome"
+							   id="nome"
+							   placeholder="Digite seu nome" />
+					</div>
+					<div class="form-group">
+						<label for="sexo">Sexo</label>
+						<!-- FORMULARIO -->
+						<div class="radio">
+							<input type="radio"
+								   checked
+								   name="sexo"
+								   id="masculino"
+								   value="masculino" />
+							<label class="radio-label" for="masculino">Masculino</label>
+
+							<input type="radio"
+								   name="sexo"
+								   id="feminino"
+								   value="feminino" />
+							<label class="radio-label" for="feminino">Feminino</label>
+
+							<input type="radio" name="sexo" id="outro" value="outro" />
+							<label class="radio-label" for="outro">Outro</label>
+
+							<input type="radio"
+								   name="sexo"
+								   id="naoInformar"
+								   value="naoInformar" />
+							<label class="radio-label" for="naoInformar">Prefiro não informar</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="endereco">Endereço</label>
+						<input type="text"
+							   name="endereco"
+							   id="endereco"
+							   placeholder="Digite seu endereço" />
+					</div>
+
+					<div class="form-group">
+						<label for="telefone"> Telefone </label>
+						<input type="tel"
+							   name="telefone"
+							   id="telefone"
+							   placeholder="Digite seu telefone" />
+					</div>
+
+					<div class="form-group">
+						<label for="email"> E-mail </label>
+						<input type="email"
+							   name="email"
+							   id="email"
+							   placeholder="Digite seu e-mail" />
+					</div>
+
+					<div class="form-group1">
+						<label for="comentario"> Comentário </label>
+						<textarea name="comentario"
+								  id="comentario"
+								  placeholder="Digite seu comentário"
+								  cols="30"
+								  rows="10"></textarea>
+					</div>
+
+					<div class="form-group d-flex flex-row flex-reverse gap-1">
+						<input class="submit" type="submit" value="Enviar" />
+						<input class="reset" type="reset" value="Redefinir" />
+					</div>
+
+					<div class="contacts">
+						<address>
+							<b>E-mail:</b>
+							<a href="mailto:teste@teste.com">contato@annabella.com.br</a><br />
+							<b>Telefone:</b>
+							<a href="tel:+xxxxx-xxxx">(xx) xxxxx-xxxx</a>
+						</address>
+					</div>
+				</form>
+			</section>
+		</main>
+
+</div>
+</body>
+</html>
